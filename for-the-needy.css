@@ -1,4 +1,4 @@
-/* ===================== Universal Selector ========================= */
+/* ===================== Common Properties ========================= */
 
 * {
     margin: 0;
@@ -18,11 +18,20 @@ h2 {
     font-size: 6rem;
 }
 
+button {
+    border: none;
+    background: #ff5959;
+    padding: 1.3rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
 /* ========================= First Part ========================== */
 
 .donate-part {
-    margin: 0;
-    padding: 0;
     color: white;
     background-image: url(photos/survivor-kid.jpg);
     background-repeat: no-repeat;
@@ -31,6 +40,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .donate-part h2 {
@@ -49,13 +59,76 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.donate-part button {
+/* ======================================================= */
+
+.amount-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.amount-part div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount-part .read h2 {
+    font-size: 4rem;
+    color: #121212;
+    margin-bottom: 1rem;
+}
+
+.amount-part .read p {
+    color: #707070;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.amount-part .amount {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.amount-part .amount h3 {
+    background: #fafafa;
+    padding: 3.5rem 2rem;
+    font-size: 3.5rem;
+    border-radius: .7rem;
+    color: #707070;
+}
+
+.amount-part .amount #selected-amount {
+    border: 2px solid #ff5959;
+    color: #ff5959;
+    background: rgba(255, 89, 89, 0.05);
+}
+
+.amount-part .send {
+    width: 100%;
+}
+
+.amount-part .send input {
     border: none;
-    background: #ff5959;
-    padding: 1.5rem 2rem;
-    font-size: 2rem;
-    font-weight: 500;
-    color: white;
-    border-radius: 0.6rem;
-    cursor: pointer;
+    border-bottom: 2px solid rgba(112, 112, 112, 0.3);
+    outline: none;
+    display: inline-block;
+    width: 66.5%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #707070;
+    padding: .5rem;
+}
+
+.amount-part .send input::placeholder {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(112, 112, 112, 0.6);
+    font-family: poppins, sans-serif;
 }
