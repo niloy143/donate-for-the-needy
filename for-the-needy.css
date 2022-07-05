@@ -1,3 +1,61 @@
+/* ===================== Universal Selector ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
 p {
-    color: red;
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+/* ========================= First Part ========================== */
+
+.donate-part {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(photos/survivor-kid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-part h2 {
+    width: 70%;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    line-height: 7rem;
+    text-transform: capitalize;
+}
+
+.donate-part p {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.donate-part button {
+    border: none;
+    background: #ff5959;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
 }
