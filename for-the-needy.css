@@ -132,3 +132,70 @@ button {
     color: rgba(112, 112, 112, 0.6);
     font-family: poppins, sans-serif;
 }
+
+/* ========================== Donate-Plan Part =========================== */
+
+.donate-plan {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+    align-items: center;
+}
+
+.donate-plan .head {
+    width: 50%;
+    text-align: center;
+}
+
+.donate-plan .head h2 {
+    font-size: 4rem;
+    color: #121212;
+    margin-bottom: 1.5rem;
+}
+
+.donate-plan .head p {
+    color: #707070;
+}
+
+.donate-plan .box {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 90%;
+}
+
+.donate-plan .box div {
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: .5rem;
+    width: 40%;
+}
+
+#food-box {
+    background: #EDF5F6;
+}
+
+#shelter-box {
+    background: #FFEEEE;
+}
+
+#education-box {
+    background: #FFF4D6;
+}
+
+.donate-plan .box div img {
+    width: 4.5rem;
+    margin-top: 4rem;
+}
+
+.donate-plan .box div h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem auto 1rem;
+    color: #121212;
+}
+
+.donate-plan .box div p {
+    letter-spacing: -0.07rem;
+    color: #707070;
+    font-size: 1.4rem;
+}
