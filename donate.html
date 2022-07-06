@@ -12,116 +12,136 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Lobster&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div style="display: block;">
-        <header class="donate-part">
-            <h2>Let's stand for our borthers and sisters in need.</h2>
-            <p>We all know about the current situation of our neighbours in Sylhet. They are going through a hard time.
-                This
-                time, our brothers need our help. We are collecting donations to help them survive.</p>
+
+    <header class="donate-part">
+        <h2>Let's stand for our borthers and sisters in need.</h2>
+        <p>We all know about the current situation of our neighbours in Sylhet. They are going through a hard time.
+            This
+            time, our brothers need our help. We are collecting donations to help them survive.</p>
+        <button>Donate Now</button>
+    </header>
+
+    <!-- ========================== Amount Part =================================== -->
+
+    <section class="amount-part">
+        <div class="read">
+            <h2>Select Your Amount</h2>
+            <p>Donate how much you can. Maybe your little effort could help a man survive one more night. When it's
+                about us, It's big.</p>
+        </div>
+        <div class="amount">
+            <h3>৳100</h3>
+            <h3 id="selected-amount">৳200</h3>
+            <h3>৳500</h3>
+            <h3>৳1000</h3>
+            <h3>৳5000</h3>
+        </div>
+        <div class="send">
+            <input type="number" placeholder="Other Amount (Taka)">
             <button>Donate Now</button>
-        </header>
+        </div>
+    </section>
 
-        <!-- ========================== Amount Part =================================== -->
+    <!-- =========================== Donate-Plan Part =============================== -->
 
-        <section class="amount-part">
-            <div class="read">
-                <h2>Select Your Amount</h2>
-                <p>Donate how much you can. Maybe your little effort could help a man survive one more night. When it's
-                    about us, It's big.</p>
+    <section class="donate-plan">
+        <div class="head">
+            <h2>Our Donate Plan</h2>
+            <p>Since we are taking responsibilities to deliver your efforts to the our needy brothers, we have some
+                plans to present.</p>
+        </div>
+        <div class="box">
+            <div id="food-box">
+                <img src="icons/food.png" alt="food-icon">
+                <h2>Food for People</h2>
+                <p>Food is the major problem at this time. We considered that we're gonna collect enough food for at
+                    least 1 week survival.</p>
             </div>
-            <div class="amount">
-                <h3>৳100</h3>
-                <h3 id="selected-amount">৳200</h3>
-                <h3>৳500</h3>
-                <h3>৳1000</h3>
-                <h3>৳5000</h3>
+            <div id="shelter-box">
+                <img src="icons/shelter.png" alt="shelter-icon">
+                <h2>Shelter For Families</h2>
+                <p>After the flood, when the lands will dry, we decided to build some houses for as much family as
+                    we
+                    can. We will try to reach the maximum.</p>
             </div>
-            <div class="send">
-                <input type="number" placeholder="Other Amount (Taka)">
-                <button>Donate Now</button>
+            <div id="education-box">
+                <img src="icons/Frame-1.png" alt="education-icon">
+                <h2>Education For Children</h2>
+                <p>We're keeping the education part of our next generation in our head. we would build some
+                    education
+                    institutions so that our children don't lag behind.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- =========================== Donate-Plan Part =============================== -->
+    <!-- ================================== Bonus Part / Donate-Method ========================================= -->
 
-        <section class="donate-plan">
-            <div class="head">
-                <h2>Our Donate Plan</h2>
-                <p>Since we are taking responsibilities to deliver your efforts to the our needy brothers, we have some
-                    plans to present.</p>
+    <section class="donate-method">
+        <div class="read">
+            <h2>Donate Method</h2>
+            <p>We are collecting donations through various mobile banking methods. You can choose how you want to
+                pay
+                for donation.</p>
+        </div>
+        <div class="send">
+            <div class="bkash">
+                <img src="photos/bkash1.jpg" alt="bkash logo">
+                <p>We are collecting donations through <b><i>bKash</i></b>. You can manually send us donation by
+                    dialing
+                    *247# or you can pay directly through the 'Donate' button below. <br>
+                    <b>bKash: 01700 000 000</b>
+                </p>
+                <button style="background: #DB1E62;">Donate</button>
             </div>
-            <div class="box">
-                <div id="food-box">
-                    <img src="icons/food.png" alt="food-icon">
-                    <h2>Food for People</h2>
-                    <p>Food is the major problem at this time. We considered that we're gonna collect enough food for at
-                        least 1 week survival.</p>
-                </div>
-                <div id="shelter-box">
-                    <img src="icons/shelter.png" alt="shelter-icon">
-                    <h2>Shelter For Families</h2>
-                    <p>After the flood, when the lands will dry, we decided to build some houses for as much family as
-                        we
-                        can. We will try to reach the maximum.</p>
-                </div>
-                <div id="education-box">
-                    <img src="icons/Frame-1.png" alt="education-icon">
-                    <h2>Education For Children</h2>
-                    <p>We're keeping the education part of our next generation in our head. we would build some
-                        education
-                        institutions so that our children don't lag behind.</p>
-                </div>
+            <div class="nagad">
+                <img src="photos/nagad1.jpg" alt="nagad logo">
+                <p>We are collecting donations through <b><i>Nagad</i></b>. You can manually send us donation by
+                    dialing
+                    *167# or you can pay directly through the 'Donate' button below. <br>
+                    <b>Nagad: 01700 000 000</b>
+                </p>
+                <button style="background: linear-gradient(to right bottom, #E31D1C, #F7941D);">Donate</button>
             </div>
-        </section>
-
-        <!-- ================================== Bonus Part / Donate-Method ========================================= -->
-
-        <section class="donate-method">
-            <div class="read">
-                <h2>Donate Method</h2>
-                <p>We are collecting donations through various mobile banking methods. You can choose how you want to
-                    pay
-                    for donation.</p>
+            <div class="rocket">
+                <img src="photos/rocket1.jpg" alt="rocket logo">
+                <p>We are collecting donations through <b><i>Rocket</i></b>. You can manually send us donation by
+                    dialing *322# or you can pay directly through the 'Donate' button below. <br>
+                    <b>Rocket: 01700 000 000</b>
+                </p>
+                <button style="background: #8B3493;">Donate</button>
             </div>
-            <div class="send">
-                <div class="bkash">
-                    <img src="photos/bkash1.jpg" alt="bkash logo">
-                    <p>We are collecting donations through <b><i>bKash</i></b>. You can manually send us donation by
-                        dialing
-                        *247# or you can pay directly through the 'Donate' button below. <br>
-                        <b>bKash: 01700 000 000</b>
-                    </p>
-                    <button style="background: #DB1E62;">Donate</button>
-                </div>
-                <div class="nagad">
-                    <img src="photos/nagad1.jpg" alt="nagad logo">
-                    <p>We are collecting donations through <b><i>Nagad</i></b>. You can manually send us donation by
-                        dialing
-                        *167# or you can pay directly through the 'Donate' button below. <br>
-                        <b>Nagad: 01700 000 000</b>
-                    </p>
-                    <button style="background: linear-gradient(to right bottom, #E31D1C, #F7941D);">Donate</button>
-                </div>
-                <div class="rocket">
-                    <img src="photos/rocket1.jpg" alt="rocket logo">
-                    <p>We are collecting donations through <b><i>Rocket</i></b>. You can manually send us donation by
-                        dialing *322# or you can pay directly through the 'Donate' button below. <br>
-                        <b>Rocket: 01700 000 000</b>
-                    </p>
-                    <button style="background: #8B3493;">Donate</button>
-                </div>
-            </div>
-        </section>
-    </div>
+        </div>
+    </section>
 
 
+    <!-- ============================== subscription Part ===================================== -->
 
+    <section class="subscription">
+        <div class="read">
+            <h2>Get Donation Updates</h2>
+            <p>We will be sharing photos, videos and google doc files to inform you how we are spending your
+                donations
+                for them. You can stay tuned.</p>
+        </div>
+        <form class="subscribe">
+            <input type="email" placeholder="Email">
+            <button>Subscribe</button>
+        </form>
+    </section>
+    <!-- ================================= Footer Part ===================================== -->
 
-
-
+    <footer>
+        <h2>Stay With Our Brothers</h2>
+        <p>We all are united and committed to survive together.</p>
+    </footer>
 
 
 

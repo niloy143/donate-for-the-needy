@@ -228,14 +228,13 @@ button {
 
 .donate-method .send {
     display: flex;
-    width: 90%;
     gap: 2.5rem;
 }
 
 .donate-method .send div {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -10px -10px 10px rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
-    padding: 2rem;
+    padding: 2rem 2rem 4rem;
     width: 33%;
 }
 
@@ -260,4 +259,80 @@ button {
     padding: .8rem 0;
     color: #f0f0f0;
     font-size: 1.8rem;
+}
+
+/* ================================== Subscription Part =============================== */
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem auto;
+}
+
+.subscription .read {
+    text-align: center;
+    width: 50%;
+}
+
+.subscription .read h2 {
+    font-size: 4rem;
+    color: #121212;
+    margin-bottom: 1.5rem;
+}
+
+.subscription .read p {
+    color: #707070;
+    margin-bottom: 5rem;
+}
+
+.subscription .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF4D6;
+    width: 70%;
+    height: 20rem;
+    border-radius: .5rem;
+}
+
+.subscription .subscribe input {
+    width: 20%;
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+    padding: 1rem;
+    border-radius: .3rem 0 0 .3rem;
+    font-size: 1.4rem;
+}
+
+.subscription .subscribe input::placeholder {
+    color: #aa9f9f;
+}
+
+.subscription .subscribe button {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border-radius: 0 .3rem .3rem 0;
+}
+
+/* =============================== Footer Part =================================== */
+
+footer {
+    background: #0B0D17;
+    padding: 7rem;
+    text-align: center;
+}
+
+footer h2 {
+    color: #ff5959;
+    margin: 0 auto 1rem;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+footer p {
+    color: grey;
+    font-size: 1.4rem;
 }
