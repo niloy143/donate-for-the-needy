@@ -250,7 +250,7 @@ button {
     color: #707070;
     font-size: 1.4rem;
     text-align: justify;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .donate-method .send div button {
@@ -297,7 +297,7 @@ button {
 }
 
 .subscription .subscribe input {
-    width: 20%;
+    width: 30%;
     border: none;
     outline: none;
     background: #d9d9d9;
